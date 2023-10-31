@@ -1,0 +1,16 @@
+{
+  "name": "frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "bun build ./src/main.ts > index.js",
+    "test": "bun ./node_modules/.bin/jasmine --config=./jasmine.json"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^5.1.1",
+    "jasmine": "^5.1.0",
+    "typescript": "^5.0.2"
+  },
+  "dependencies": {}
+}
